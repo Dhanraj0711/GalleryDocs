@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GalleryDocs</string>
+    <string name="open_image">Open Image</string>
+    <string name="take_photo">Take Photo</string>
+</resources>
