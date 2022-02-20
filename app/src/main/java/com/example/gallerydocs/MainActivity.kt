@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
     private fun setOnClick() {
         result.launch(Manifest.permission.READ_EXTERNAL_STORAGE)
         binding.btnImage.setOnClickListener {
-            selectImage.launch("application/pdf")
+            selectImage.launch("image/*")
         }
     }
 
